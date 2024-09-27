@@ -1,0 +1,486 @@
+/* 
+  ##Device = Desktops
+  ##Screen = 1281px to higher resolution desktops
+*/
+
+@media (min-width: 1281px) {
+
+    /* CSS */
+
+}
+
+/* 
+    ##Device = Laptops, Desktops
+    ##Screen = B/w 1025px to 1280px
+  */
+
+@media (min-width: 1025px) and (max-width: 1280px) {
+
+    /* CSS */
+
+    /* .services-section .card {
+        height: 101%;
+        margin-top: 5px;
+        padding: 9px 0px 23px 1px;
+        width: 110%;
+    }
+
+    .teamsection {
+        width: 100%;
+        height: 90vh;
+        text-align: center;
+        position: relative;
+    }
+
+    .teamsection::after {
+        content: '';
+        margin-top: -370px;
+        position: absolute;
+        height: 4px;
+        background: rgb(237, 76, 76);
+        transform: scale(0.3, 1);
+        margin-left: -86px;
+        width: 150px;
+        transition: 0.6s;
+    }
+
+    .feature .card {
+        margin-top: 19px;
+        border: 1px solid #f5f5f5;
+        border-radius: 10px;
+        background: #f5f5f5;
+        height: 293px;
+        width: 283px;
+        padding: 28px 38px;
+        margin-left: 2px;
+        text-align: center;
+    } */
+
+
+
+}
+
+/* 
+    ##Device = Tablets, Ipads (portrait)
+    ##Screen = B/w 768px to 1024px
+  */
+
+@media (min-width: 768px) and (max-width: 1024px) {
+
+    /* CSS */
+
+
+    .announcement p {
+        color: #fff;
+        font-size: 16px;
+        margin-top: 11px;
+        width: 97%;
+        margin-left: -15px;
+    }
+    .banner-section {
+        width: 100%;
+        height: 47vh;
+        background-image: url(../img/bg.png);
+        border-bottom: 1px solid gray;
+    }
+    .banner-section .binner h2 {
+        font-family: "Gowun Batang", serif;
+        width: 88%;
+        padding: 10px 11px;
+        font-size: 45px;
+        margin-bottom: 20px;
+        margin-left: 8px;
+        margin-top: -43px;
+    }
+    .feature-section {
+        width: 100%;
+        text-align: center;
+        height: 20vh;
+        position: relative;
+    }
+
+    .feature .card {
+        margin-top: 19px;
+        border: 1px solid #f5f5f5;
+        border-radius: 10px;
+        background: #f5f5f5;
+        height: 270px;
+        width: 216px;
+        padding: 28px 2px;
+        text-align: center;
+        margin-left: 1px;
+    }
+
+    .feature {
+        height: 30vh;
+        width: 100%;
+        text-align: center;
+    }
+
+    header {
+        width: 100%;
+        height: 9vh;
+    }
+
+    .service {
+        margin-top: 20px;
+        width: 100%;
+        text-align: center;
+        height: 21vh;
+        background: #f7f6f6;
+        position: relative;
+    }
+    .services-section {
+        width: 100%;
+        text-align: center;
+        background: #f7f6f6;
+        height: 70vh;
+    }
+
+    .services-section .card {
+        height: 96%;
+        margin-top: 36px;
+    }
+
+
+    .teamsection .card img {
+        border-radius: 3px;
+        width: 100%;
+    }
+
+    .teamsection .card {
+        margin-top: 65px;
+        background: rgb(255, 218, 218);
+        width: 74%;
+        height: 85%;
+        margin-left: 67px;
+        /* margin-right: -20px; */
+    }
+
+
+    .contact-info a, .social-icons a {
+        color: #fff;
+        margin-right: 0px;
+        text-decoration: none;
+        font-size: 14px;
+        margin-left: 27px;
+    }
+    .social-icons a i {
+        color: #fff;
+        font-size: 0px;
+        display: flex;
+        margin-left: 53px;
+        margin-right: 11px;
+    }
+    .teamsection::after  {
+        content: '';
+        margin-top: -860px;
+        position: absolute;
+        height: 4px;
+        background: rgb(237, 76, 76);
+        transform: scale(0.3, 1);
+        margin-left: -75px;
+        width: 150px;
+        transition: 0.6s;
+    }
+    
+    .teamsection:hover::after {
+        transform: scale(1, 1);
+        transition: 0.6s;
+    }
+
+    .contact {
+        width: 100%;
+        height: 48vh;
+        background: #f5f5f5;
+        text-align: center;
+    }
+
+    .contact-section {
+        width: 100%;
+        height: 15vh;
+        text-align: center;
+        background: #f5f5f5;
+        position: relative;
+    }
+
+    .contact .btns a {
+        width: 25%;
+        padding: 11px 0px;
+        background: rgb(237, 76, 76);
+        border: 1px solid rgb(237, 76, 76);
+        border-radius: 7px;
+        font-size: 17px;
+        transition: 0.3s;
+    }
+
+    footer {
+        background: #282531;
+        color: white;
+        padding: 50px 0px 15px;
+        /* height: 158%; */
+        height: 82vh;
+    }
+
+    footer .f-para {
+        width: 76%;
+        text-align: center;
+        margin-left: 67px;
+    }
+
+    .feature .card p {
+        font-size: 17px;
+        margin-top: 6px;
+        width: 99%;
+    }
+}
+
+/* 
+    ##Device = Tablets, Ipads (landscape)
+    ##Screen = B/w 768px to 1024px
+  */
+
+@media (min-width: 768px) and (max-width: 1024px) and (orientation: landscape) {
+
+    /* CSS */
+
+}
+
+/* 
+    ##Device = Low Resolution Tablets, Mobiles (Landscape)
+    ##Screen = B/w 481px to 767px
+  */
+
+@media (min-width: 481px) and (max-width: 767px) {
+
+    /* CSS */
+
+}
+
+/* 
+    ##Device = Most of the Smartphones Mobiles (Portrait)
+    ##Screen = B/w 320px to 479px
+  */
+
+@media (min-width: 320px) and (max-width: 480px) {
+
+    /* CSS */
+
+
+    .announcement p {
+        color: #fff;
+        font-size: 12px;
+        margin-top: 11px;
+        width: 132%;
+        margin-left: -35px;
+    }
+
+
+    .social-icons a i {
+        color: #fff;
+        font-size: 13px;
+        margin-right: -31px;
+        margin-left: -417px;
+        padding: 10px 0px;
+    }
+
+    .contact-info a {
+        color: #fff;
+        margin-right: -41px;
+        text-decoration: none;
+        font-size: 14px;
+        margin-left: 28px;
+    }
+
+    .contact-info a i {
+        margin-right: 38px;
+        color: rgb(237, 76, 76);
+        font-size: 16px;
+        margin-top: -3px;
+    }
+
+    .banner-section .binner h2 {
+        font-family: "Gowun Batang", serif;
+        width: 120%;
+        padding: 10px 11px;
+        font-size: 40px;
+        margin-bottom: 20px;
+        margin-top: -55px;
+        margin-left: 8px;
+    }
+
+    .banner-section .binner p {
+        width: 98%;
+        font-family: "Quicksand", sans-serif;
+        text-transform: uppercase;
+        margin-bottom: 28px;
+        margin-left: 19px;
+        margin-top: -16px;
+    }
+
+    .banner-section .binner .btns a {
+        position: relative;
+        width: 52%;
+        padding: 15px 10px;
+        border: 1px solid black;
+        border-radius: 0;
+        background: white;
+        text-decoration: none;
+        color: #000;
+        z-index: 1;
+    }
+
+    .banner-section {
+        width: 100%;
+        height: 46vh;
+        background-image: url(../img/bg.png);
+        border-bottom: 1px solid gray;
+    }
+
+    .feature .card {
+        margin-top: 14px;
+        border: 1px solid #f5f5f5;
+        border-radius: 10px;
+        background: #f5f5f5;
+        height: 320px;
+        width: 264px;
+        padding: 28px 38px;
+        margin-left: 65px;
+        text-align: center;
+    }
+
+    .feature {
+        height: 110vh;
+        width: 100%;
+        text-align: center;
+    }
+
+    .feature-section {
+        width: 100%;
+        text-align: center;
+        height: 20vh;
+        position: relative;
+    }
+
+
+    .service {
+        margin-top: 20px;
+        width: 100%;
+        text-align: center;
+        height: 16vh;
+        background: #f7f6f6;
+        position: relative;
+    }
+
+    .services-section {
+        width: 100%;
+        text-align: center;
+        background: #f7f6f6;
+        height: 140vh;
+    }
+
+    .services-section .card {
+        height: 308px;
+        margin-top: -1px;
+        margin-bottom: 18px;
+        /* width: 98%; */
+    }
+
+
+    .teamsection {
+        width: 100%;
+        height: 245vh;
+        text-align: center;
+        position: relative;
+    }
+
+    .teamsection::after {
+        content: '';
+        margin-top: -2080px;
+        position: absolute;
+        height: 4px;
+        background: rgb(237, 76, 76);
+        transform: scale(0.3, 1);
+        margin-left: -75px;
+        width: 150px;
+        transition: 0.6s;
+    }
+
+    .teamsection:hover::after {
+        transform: scale(1, 1);
+        transition: 0.6s;
+    }
+
+    .teamsection .card {
+        margin-top: 40px;
+        background: rgb(255, 218, 218);
+        width: 81%;
+        height: 91%;
+        margin-left: 42px;
+        margin-bottom: 21px;
+    }
+
+    .contact-section {
+        width: 100%;
+        height: 13vh;
+        text-align: center;
+        background: #f5f5f5;
+        position: relative;
+    }
+
+    .contact .btns a {
+        width: 23%;
+        padding: 13px 0px;
+        background: rgb(237, 76, 76);
+        border: 1px solid rgb(237, 76, 76);
+        border-radius: 7px;
+        font-size: 17px;
+        transition: 0.3s;
+    }
+
+    .contact {
+        width: 100%;
+        height: 99vh;
+        background: #f5f5f5;
+        text-align: center;
+    }
+
+    .contact h3 {
+        margin-top: 30px;
+        color: #6c6969;
+        font-size: 31px;
+    }
+
+    footer .f-para {
+        width: 102%;
+        text-align: center;
+    }
+
+    footer {
+        background: #282531;
+        color: white;
+        padding: 50px 0px 15px;
+        height: 85vh;
+    }
+
+    footer h6 {
+        font-weight: 700;
+        margin: 31px;
+        margin-top: 6px;
+        color: rgb(237, 76, 76);
+        text-align: center;
+        width: 70%;
+        margin-left: 16px;
+    }
+
+    footer ul li {
+        margin-left: -27px;
+        list-style-type: none;
+        margin-bottom: 10px;
+        text-align: center;
+        width: 131%;
+    }
+
+
+
+}
